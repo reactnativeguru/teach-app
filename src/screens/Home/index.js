@@ -12,6 +12,21 @@ const Home = ({ navigation }) => (
     onPress={() => navigation.navigate('List')}>
       <Text>View List</Text>
     </TouchableOpacity>
+
+    <TouchableOpacity 
+    onPress={() => navigation.navigate('Counter')}>
+      <Text>Go to Counter </Text>
+    </TouchableOpacity>
+
+    <TouchableOpacity 
+    onPress={() => navigation.navigate('Color')}>
+      <Text>Go to Colors </Text>
+    </TouchableOpacity>
+
+    <TouchableOpacity 
+    onPress={() => navigation.navigate('Square')}>
+      <Text>Go to Square Screen </Text>
+    </TouchableOpacity>
   </View>
 );
 export default Home;
