@@ -27,6 +27,17 @@ const Home = ({ navigation }) => (
     onPress={() => navigation.navigate('Square')}>
       <Text>Go to Square Screen </Text>
     </TouchableOpacity>
+
+    <TouchableOpacity 
+    onPress={() => navigation.navigate('SquareWithReducer')}>
+      <Text>Go to Square Screen With Reducer </Text>
+    </TouchableOpacity>
+
+
+    <TouchableOpacity 
+    onPress={() => navigation.navigate('Text')}>
+      <Text>Go to Text Screen </Text>
+    </TouchableOpacity>
   </View>
 );
 export default Home;
